@@ -74,6 +74,10 @@ class LAE_Pricing_Table_Widget extends Widget_Base {
         return array('livemesh-addons');
     }
 
+    public function get_custom_help_url() {
+        return 'https://livemeshelementor.com/docs/livemesh-addons/core-addons/pricing-table/';
+    }
+
     public function get_script_depends() {
         return [
             'lae-frontend-scripts',

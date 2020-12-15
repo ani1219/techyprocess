@@ -39,6 +39,10 @@ class LAE_Tab_Slider_Widget extends Widget_Base {
         return array('livemesh-addons');
     }
 
+    public function get_custom_help_url() {
+        return 'https://livemeshelementor.com/docs/livemesh-addons/';
+    }
+
     public function get_script_depends() {
         return [
             'lae-widgets-scripts',
